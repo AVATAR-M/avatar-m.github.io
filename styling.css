@@ -1,0 +1,153 @@
+/*
+light blue color:#25AAE2
+dark blue color: #27414E
+*/
+
+
+/*
+body{
+    background: #27414E;
+}
+
+nav{
+    padding: 1.5%;
+    padding-top: 0;
+    padding-bottom:5px;
+    width:100%;
+    background: white;
+    font-size:120%;
+    position: fixed;
+    top:0px;
+    left:0px;
+}
+*/
+/*
+ul
+{  
+         /*    inlinechanged*/
+/*    display: inline-block;*/
+        /*    padding: 0.5%;   */
+/*    list-style: none;*/
+/*}*/
+
+
+/*
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#predestinedLink{
+    font-size: 150%;
+    padding-right:55%;
+    display: inline-block;
+}
+
+a:link{
+    color:black;
+}
+a:visited
+{
+    color:black;
+}
+
+nav ul a:hover{
+    color:white;
+    background: #25AAE2;
+}
+
+*/
+
+
+body{
+    
+    background: #27414E;
+}
+nav{
+    background: white;
+    position: fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 55px;
+}
+#predestinedLink{  
+    margin-top: 5px;
+    display: inline-block;
+/*    padding-right: 55%;*/
+    font-size: 200%;
+/*    float:left;*/
+}
+nav ul{
+    float:right;
+    margin:0px;
+    font-size:110%;
+    display: inline-block;
+    list-style: none;
+/*    float:right;*/
+}
+nav ul li {
+    display: inline-block;    
+}
+nav ul li a{
+    font-size: 110%;
+    display: inline-block;
+    padding:16px 20px;
+/*    border:2px solid black;*/
+}
+nav ul li a:hover{
+    color:white;
+    background: #25AAE2;
+}
+
+nav a img{
+/*    float:left;*/
+/*    vertical-align: text-top;*/
+    vertical-align: middle;
+    position: relative;
+    bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+#formspace{
+    float: left;
+    background-color: #25AAE2;
+    border: 5px solid  #25AAE2;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 60px;
+}
+form p{
+    font-family: Soleil;
+    font-size: 110%;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 0.08em;
+}
+input[type=email]{
+    font-size: 110%;
+    padding-top :10px;
+    padding-bottom: 10px;
+    padding-right: 32px;
+    padding-left: 32px;
+    width: 348.6px;
+}
+input[type=submit]{
+   background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    font-size: 110%;
+    color: white;
+    padding-top: 20px;
+    color: #fff;
+    padding-bottom: 20px;
+    width: 417.6px;
+    cursor: pointer;
+}
